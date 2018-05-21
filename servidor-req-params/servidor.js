@@ -21,7 +21,7 @@ http.createServer(function (req, res) {
 
 }).listen(puerto, function () {
 
-  console.log( "Escuchando en el puerto " + puerto );
+  console.log( "En el puerto " + puerto );
 
 });
 

@@ -2,6 +2,10 @@ exports.signo = function(m,d){
 
 	let day = parseInt(d);
 
+	//VALIDACION
+
+	if(isNaN(day)){return "Ingrese un día válido";}
+
 	switch(m){
 
 		case '1': 
@@ -151,6 +155,10 @@ exports.signo = function(m,d){
 			}
 
 		break;
+
+		default:
+				return "Ingrese un mes valido";
+		break;		
 	
 
 	}
